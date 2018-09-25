@@ -1,0 +1,1 @@
+﻿g++ triangles.cc /home/cs425/code-egs/angel06/Common/InitShader.o -no-pie -pedantic -g -std=c++11 -I/usr/local/include/ -I/home/cs425/code-egs/  -I/home/cs425/code-egs/angel06/include/  -Wall -lGL -lGLU /usr/lib/x86_64-linux-gnu/libglut.so.3 /usr/lib/x86_64-linux-gnu/libGLEW.so.1.13 -o triangles

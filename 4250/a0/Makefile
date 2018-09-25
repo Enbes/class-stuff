@@ -37,7 +37,7 @@ all: $(OBJECTS)
 	$(CC) $@.c $(InitShader) $(OPTIONS) $(LDLIBS) -o $@
 
 .cc:
-	$(CC) $@.cc $(InitShader) $(OPTIONS) $(LDLIBS) -o $@ 
+	$(CC) $@.cc $(InitShader) -no-pie $(OPTIONS) $(LDLIBS) -o $@ 
 
 clean:
 	rm -f $(OBJECTS) *~

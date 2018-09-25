@@ -5,9 +5,9 @@ uniform vec2 pos;
 
 void main()
 {
-  gl_Position.x = (1.0/500.0)*(pos.x + vPosition.x-400.0);
-  gl_Position.y = (1.0/500.0)*(pos.y + vPosition.y-400.0);
-  gl_Position.z = (1.0/500.0)*(vPosition.z-400.0);
+  gl_Position.x = (1.0/500.0)*(pos.x + vPosition.x-500.0);
+  gl_Position.y = (1.0/500.0)*(pos.y + vPosition.y-500.0);
+  gl_Position.z = (1.0/500.0)*(vPosition.z-500.0);
   gl_Position.w = 1.0;
 
   /*
